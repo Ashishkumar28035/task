@@ -12,8 +12,6 @@ https://github.com/Ashishkumar28035/task
 - Mobile-first UI
 - Pixel-perfect design
 - Signup/Login flow
-- LocalStorage authentication
-- Protected Profile page
 - Vercel Deployment
 
 ## Run Locally
