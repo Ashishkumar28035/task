@@ -1,0 +1,25 @@
+.landing {
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.bottom-content {
+  width: 100%;
+  padding: 24px;
+  margin-bottom: 20px;
+}
+
+.bottom-content h1 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: #1d1d1d;
+}
+
+.bottom-content p {
+  color: #6b6b6b;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 28px;
+}

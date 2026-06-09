@@ -1,0 +1,23 @@
+.header {
+  padding: 20px;
+  font-weight: 600;
+  border-bottom: 1px solid #eee;
+}
+
+.profile-card {
+  display: flex;
+  gap: 15px;
+  padding: 20px;
+}
+
+.profile-card img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.bio {
+  padding: 0 20px;
+  line-height: 1.6;
+  color: #444;
+}

@@ -1,0 +1,110 @@
+.signup-container {
+  height: 100%;
+  padding: 32px 20px;
+  background: #f7f8f9;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.signup-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #1d2226;
+  line-height: 1.2;
+  margin-bottom: 28px;
+}
+
+.signup-form {
+  flex: 1;
+}
+
+.input-group {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  position: absolute;
+  top: -8px;
+  left: 12px;
+  background: #f7f8f9;
+  padding: 0 4px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #6c25ff;
+  z-index: 1;
+}
+
+.input-group input {
+  width: 100%;
+  height: 46px;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+  padding: 0 14px;
+  font-size: 14px;
+  outline: none;
+  background: white;
+}
+
+.input-group input::placeholder {
+  color: #1d2226;
+}
+
+.input-group input:focus {
+  border-color: #6c25ff;
+}
+
+.agency-section {
+  margin-top: 10px;
+}
+
+.agency-title {
+  font-size: 14px;
+  color: #1d2226;
+  margin-bottom: 12px;
+}
+
+.agency-title span {
+  color: red;
+}
+
+.radio-group {
+  display: flex;
+  gap: 24px;
+}
+
+.radio-group label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 15px;
+  color: #1d2226;
+  cursor: pointer;
+}
+
+.radio-group input[type="radio"] {
+  width: 20px;
+  height: 20px;
+  accent-color: #6c25ff;
+}
+
+.create-account-btn {
+  width: calc(100% - 40px);
+  height: 46px;
+  border: none;
+  border-radius: 6px;
+  background: #6c25ff;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+
+  position: absolute;
+  left: 20px;
+  bottom: 24px;
+}
+
+.create-account-btn:hover {
+  background: #5a1ff0;
+}
